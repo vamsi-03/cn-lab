@@ -25,8 +25,8 @@ def slow_Stat(Wm,Wo,Wn,Cu_BT,arrofAck,AD):
                 print("Backoff window size is*:-->",Cu_BT)
              else:
                 print("frame lost due to collision","or interference")
-             if(Cu_BT==Wn):
-                 Cu_BT=Wn
+             if(Cu_BT==Wm):
+                 Cu_BT=Wm
                  print("Backoff Window size is:-->",Cu_BT)
              else:
                  Cu_BT=Cu_BT+Wo
